@@ -8,6 +8,7 @@ const html = `
 
 
 export function onRequest(context) {
+  console.log(context);
   return new Response(html, {
     headers: {
       'content-type': 'text/html; charset=UTF-8',

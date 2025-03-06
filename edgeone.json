@@ -1,8 +1,5 @@
 {
     "name": "example-app",
-    "buildCommand": "next build",
-    "installCommand": "npm install",
-    "outputDirectory": "./build",
     "nodeVersion": "22.11.0",
    
     "redirects": [
